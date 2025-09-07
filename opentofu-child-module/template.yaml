@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 
 metadata:
-  name: opentofu-child-module-repository
+  name: opentofu-child-module
   title: OpenTofu Child Module Repository
   description: Create a new OpenTofu child module repository with default files and structure.
 
@@ -74,7 +74,7 @@ spec:
         repoVisibility: public
         squashMergeCommitMessage: BLANK
         squashMergeCommitTitle: PR_TITLE
-        topics: [infrastructure-as-code, google-cloud-platform, osinfra, terraform, opentofu-child-module]
+        topics: [infrastructure-as-code, google-cloud-platform, osinfra, opentofu, opentofu-child-module]
 
     - id: register
       name: Register Component to the Backstage Catalog
