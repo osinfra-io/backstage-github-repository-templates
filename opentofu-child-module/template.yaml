@@ -8,7 +8,7 @@ metadata:
 
   tags:
     - google-cloud-platform
-    - terraform
+    - opentofu
     - opentofu-child-module
 
 spec:

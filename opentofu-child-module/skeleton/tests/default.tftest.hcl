@@ -1,5 +1,5 @@
-# Tests
-# https://developer.hashicorp.com/terraform/language/tests
+# Test
+# https://opentofu.org/docs/cli/commands/test
 
 run "default" {
   assert {
